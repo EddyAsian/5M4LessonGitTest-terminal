@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(names.count)
+        rxfunc()
+    }
+    private func rxfunc() {
+        print("Rx added")
     }
 }
 
